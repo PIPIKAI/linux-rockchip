@@ -54,7 +54,13 @@
 		reg = <0x1a>;
 		clocks = <&ext_cam_ov5647_clk>;
 		clock-names = "xvclk";
-		power-gpios = <&gpio1 RK_PD0 GPIO_ACTIVE_LOW>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&mipim1_camera1_clk>;
+		rockchip,grf = <&sys_grf>;
+		power-domains = <&power RK3588_PD_VI>;
+		reset-gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_LOW>;
+		power-gpios = <&gpio3 RK_PB0 GPIO_ACTIVE_HIGH>;
+		orangepi,clkout-enabled-index = <0>;
 		rockchip,camera-module-index = <0>;
 		rockchip,camera-module-facing = "back";
 		rockchip,camera-module-name = "RADXA-CAMERA-4K";
