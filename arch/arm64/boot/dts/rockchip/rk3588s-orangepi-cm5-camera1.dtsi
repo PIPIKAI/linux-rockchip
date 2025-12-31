@@ -53,7 +53,7 @@
 		compatible = "sony,imx415";
 		reg = <0x1a>;
 		clocks = <&ext_cam_ov5647_clk>;
-		clock-names = "ext_cam_ov5647_clk";
+		clock-names = "xvclk";
 		power-gpios = <&gpio1 RK_PD0 GPIO_ACTIVE_LOW>;
 		rockchip,camera-module-index = <0>;
 		rockchip,camera-module-facing = "back";
