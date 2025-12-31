@@ -56,7 +56,7 @@
 		__overlay__ {
 			status = "okay";
 
-			imx415_1@1a {
+			imx415-1@1a {
 				status = "okay";
 			};
 		};
