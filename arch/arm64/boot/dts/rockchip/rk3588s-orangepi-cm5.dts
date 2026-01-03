@@ -18,10 +18,8 @@
 #include "rk3588-rk806-single.dtsi"
 #include "rk3588-linux.dtsi"
 
-#include "rk3588s-orangepi-cm5-camera1.dtsi"
-#include "rk3588s-orangepi-cm5-camera2.dtsi"
-#include "rk3588s-orangepi-cm5-camera3.dtsi"
-#include "rk3588s-orangepi-cm5-camera4.dtsi"
+#include "rk3588s-orangepi-cm5-tablet-camera1.dtsi"
+
 
 / {
 	model = "Orange Pi CM5";
