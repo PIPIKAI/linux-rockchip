@@ -10,6 +10,7 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	orangepi-5-plus-disable-leds.dtbo \
 	orangepi-5-plus-hdmi2-8k.dtbo \
 	orangepi-5-plus-lcd.dtbo \
+	orangepi-5-plus-imx415.dtbo \
 	orangepi-5-plus-ov13850.dtbo \
 	orangepi-5-plus-ov13855.dtbo \
 	orangepi-5-plus-sata2.dtbo \
